@@ -2,8 +2,10 @@
 ## Configuring NGINX as a reverse proxy 
 NGINX is a highly configurable, lightweight, yet easily deployed webserver allowing features such as a reverse proxying using secure sockets layer with authentication and much more.
 
-Installing NGINX using your Operating Systems package manager of choice is pretty straight forward. For Debian Linux it is a simple sudo apt-get install nginx
-
+Installing NGINX using your Operating Systems package manager of choice is pretty straight forward. For Debian Linux it is a simple 
+```
+sudo apt-get install nginx
+```
 Once NGINX is installed you will need to modify the configuration file. For Debian Linux the config is located at /etc/nginx/sites-enabled/default
 ```
 server {
